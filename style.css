@@ -1,0 +1,294 @@
+:root{
+    --white: #FFFFFF;
+    --navy: #0E0142;
+}
+/* the hand written */
+/* font-family: 'Shadows Into Light', cursive; */
+
+/* the header font */
+/* font-family: 'Yeseva One', cursive; */
+
+/* the body font */
+/* font-family: 'Nunito', sans-serif; */
+
+body{
+    background-color: var(--white);
+}
+.container{
+    display: flex;
+    padding: 50px 100px; 
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+}
+.nav-bar{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin: 10px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif; 
+    color: var(--navy);
+    transition: all .2s ease-out;
+}
+.nav-item:hover{
+    transform: translate(0, -5px);
+    font-weight: bold;
+}
+.download-btn{
+    padding: 10px 40px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    color: var(--white);
+    background-color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    transition: all .2s ease-out;
+}
+.download-btn:hover{
+    background-color: #ffefe4;
+    color: #0E0142;
+    cursor: pointer;
+    transform: translate(0, -5px);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header-container{
+    display: flex;
+    padding: 0px 100px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+}
+.header-body{
+    font-family: 'Nunito', sans-serif;
+    color: var(--navy); 
+    margin-bottom: 20px; 
+}
+.flex-container{
+    display: flex;
+}
+.users{
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: var(--navy);
+}
+
+.description-container{
+    padding: 100px;
+    font-family: 'Nunito', sans-serif;
+    color: var(--navy); 
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 10px;
+}
+.section1-sub{
+    font-family: 'Shadows Into Light', cursive; 
+    color: #0E0142;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.section2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+}
+.card-header{
+    margin: 20px 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: var(--navy);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.section-3{
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.learn-more{
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px 25px;
+    color: var(--navy);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    transition: all .2s ease-out;
+}
+.learn-more:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 60%;
+}
+
+.friend{
+    font-family: 'Shadows Into Light', cursive; 
+    color: #0E0142;
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+}
+.section-4-header{
+    padding: 10px 200px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+}
+.section-4{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.subsection-4{
+    border-radius: 20px;
+    height: 30%;
+    padding: 30px;
+}
+.subsection-4-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 10px;
+}
+.subsection-4-subheader{
+    font-family: 'Shadows Into Light', cursive; 
+    color: #0E0142;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.feedback{
+    padding: 50px;
+    background-color: #ffefe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-header{
+    font-family: 'Shadows Into Light', cursive; 
+    color: #0E0142;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.feedback-body{
+    border-left: 1px solid var(--navy);
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--navy);
+    font-family: 'Yeseva One', cursive;
+}
+.footer-1{
+    background: #000;
+    color: #ffefe4;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.footer-main{
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #ffefe4;
+    font-family: 'Yeseva One', cursive;
+}
+.footer-sub{
+    font-family: 'Shadows Into Light', cursive; 
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+a {
+    color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+
+a:hover {
+    cursor:pointer;  
+    font-weight: bold;
+}
+.links{
+    margin-top: 20px;
+}
+.contacts{
+    display: flex;
+    justify-content: end;
+}
